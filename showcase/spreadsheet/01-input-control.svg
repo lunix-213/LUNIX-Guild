@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1600" height="900" fill="url(#bgGrad)" />
+
+  <!-- Window Container -->
+  <g transform="translate(60, 45)" filter="url(#shadow)">
+    <!-- Window Frame -->
+    <rect width="1480" height="810" rx="14" fill="#0b1120" stroke="#334155" stroke-width="1.5" />
+
+    <!-- Window Topbar -->
+    <rect width="1480" height="52" rx="14" fill="#1e293b" />
+    <rect y="40" width="1480" height="12" fill="#1e293b" />
+    <!-- Traffic lights -->
+    <circle cx="28" cy="26" r="7" fill="#ef4444" />
+    <circle cx="50" cy="26" r="7" fill="#f59e0b" />
+    <circle cx="72" cy="26" r="7" fill="#10b981" />
+    
+    <!-- Title -->
+    <text x="740" y="32" fill="#94a3b8" font-family="'Space Grotesk', -apple-system, sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+      LUNIX Enterprise Sheets • [01] Kontrol Input &amp; Validasi Data Pegawai.xlsx
+    </text>
+
+    <!-- App Ribbon Bar -->
+    <rect y="52" width="1480" height="42" fill="#0f172a" stroke="#334155" stroke-width="1" />
+    <!-- Sheet Tabs Top -->
+    <g transform="translate(24, 60)">
+      <rect width="130" height="26" rx="5" fill="#10b981" />
+      <text x="65" y="17" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">Form Input Utama</text>
+      
+      <rect x="140" width="120" height="26" rx="5" fill="#1e293b" />
+      <text x="200" y="17" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="500" text-anchor="middle">Database Karyawan</text>
+
+      <rect x="270" width="130" height="26" rx="5" fill="#1e293b" />
+      <text x="335" y="17" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="500" text-anchor="middle">Parameter Tunjangan</text>
+    </g>
+
+    <!-- Formula Bar -->
+    <g transform="translate(24, 104)">
+      <rect width="70" height="32" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="35" y="21" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" text-anchor="middle">B12</text>
+      
+      <rect x="80" width="40" height="32" rx="4" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="100" y="21" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" text-anchor="middle">fx</text>
+
+      <rect x="130" width="1326" height="32" rx="4" fill="#030712" stroke="#475569" stroke-width="1" />
+      <text x="146" y="21" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" font-size="13">
+        =IFERROR(VLOOKUP(B12, Master_Karyawan!$A$2:$G$250, 3, FALSE), "Pilih Pegawai...")
+      </text>
+    </g>
+
+    <!-- Subheader Panel Info -->
+    <g transform="translate(24, 150)">
+      <rect width="1432" height="74" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      
+      <rect x="18" y="16" width="42" height="42" rx="8" fill="#10b981" fill-opacity="0.2" />
+      <text x="39" y="42" fill="#10b981" font-size="20" text-anchor="middle">✦</text>
+
+      <text x="74" y="34" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">
+        MODUL KONTROL INPUT PEGAWAI &amp; ABSENSI HARIAN
+      </text>
+      <text x="74" y="52" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12">
+        Validasi ganda: Dropdown dinamis, proteksi sel terenkripsi, anti-duplikasi NIK, dan kalkulasi jam kerja otomatis.
+      </text>
+
+      <!-- Action Button inside sheet -->
+      <g transform="translate(1180, 18)">
+        <rect width="230" height="38" rx="6" fill="#2563eb" />
+        <text x="115" y="24" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">
+          ⚡ Sync Data ke Engine ↗
+        </text>
+      </g>
+    </g>
+
+    <!-- Spreadsheet Grid Table -->
+    <g transform="translate(24, 238)">
+      <!-- Table Header -->
+      <rect width="1432" height="36" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="30" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">NO</text>
+      <text x="90" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">NIK (ID)</text>
+      <text x="250" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">NAMA LENGKAP</text>
+      <text x="490" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">DEPARTEMEN / JABATAN</text>
+      <text x="750" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">STATUS KERJA</text>
+      <text x="940" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">HADIR (HARI)</text>
+      <text x="1090" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">LEMBUR (JAM)</text>
+      <text x="1270" y="23" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">VALIDASI STATUS</text>
+
+      <!-- Row 1 (Active Focused) -->
+      <g transform="translate(0, 36)">
+        <rect width="1432" height="46" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.5" />
+        <text x="30" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">01</text>
+        <text x="90" y="28" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">EMP-2024-001</text>
+        <text x="250" y="28" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600">Ahmad Rizky Pratama</text>
+        <text x="490" y="28" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13">Engineering • Lead Dev</text>
+        <text x="750" y="28" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="13">Tetap (PKWTT)</text>
+        <text x="970" y="28" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">22</text>
+        <text x="1120" y="28" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">14.5</text>
+        <rect x="1260" y="10" width="110" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+        <text x="1315" y="27" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">✓ Valid (OK)</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 82)">
+        <rect width="1432" height="46" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text x="30" y="28" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="13">02</text>
+        <text x="90" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">EMP-2024-002</text>
+        <text x="250" y="28" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Siti Nurhaliza Putri</text>
+        <text x="490" y="28" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">Finance &amp; Tax • Specialist</text>
+        <text x="750" y="28" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="13">Tetap (PKWTT)</text>
+        <text x="970" y="28" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="13">22</text>
+        <text x="1120" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">4.0</text>
+        <rect x="1260" y="10" width="110" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+        <text x="1315" y="27" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">✓ Valid (OK)</text>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 128)">
+        <rect width="1432" height="46" fill="#1e293b" fill-opacity="0.4" stroke="#334155" stroke-width="1" />
+        <text x="30" y="28" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="13">03</text>
+        <text x="90" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">EMP-2024-003</text>
+        <text x="250" y="28" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Budi Wicaksono</text>
+        <text x="490" y="28" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">Operations • Officer</text>
+        <text x="750" y="28" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-size="13">Kontrak (PKWT)</text>
+        <text x="970" y="28" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="13">21</text>
+        <text x="1120" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">8.0</text>
+        <rect x="1260" y="10" width="110" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+        <text x="1315" y="27" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">✓ Valid (OK)</text>
+      </g>
+
+      <!-- Row 4 -->
+      <g transform="translate(0, 174)">
+        <rect width="1432" height="46" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text x="30" y="28" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="13">04</text>
+        <text x="90" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">EMP-2024-004</text>
+        <text x="250" y="28" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Dewi Anggraini</text>
+        <text x="490" y="28" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">Human Resources • Generalist</text>
+        <text x="750" y="28" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="13">Tetap (PKWTT)</text>
+        <text x="970" y="28" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="13">22</text>
+        <text x="1120" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">2.0</text>
+        <rect x="1260" y="10" width="110" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+        <text x="1315" y="27" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">✓ Valid (OK)</text>
+      </g>
+
+      <!-- Row 5 (With Dropdown Active Simulation) -->
+      <g transform="translate(0, 220)">
+        <rect width="1432" height="46" fill="#1e293b" fill-opacity="0.4" stroke="#334155" stroke-width="1" />
+        <text x="30" y="28" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="13">05</text>
+        <text x="90" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">EMP-2024-005</text>
+        <text x="250" y="28" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Fajar Maulana</text>
+        <text x="490" y="28" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">Marketing • Content Creator</text>
+        <text x="750" y="28" fill="#a855f7" font-family="'Space Grotesk', sans-serif" font-size="13">Magang / Intern</text>
+        <text x="970" y="28" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="13">20</text>
+        <text x="1120" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">0.0</text>
+        <rect x="1260" y="10" width="110" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981" stroke-width="1" />
+        <text x="1315" y="27" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700" text-anchor="middle">✓ Valid (OK)</text>
+      </g>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <g transform="translate(24, 760)">
+      <rect width="1432" height="34" rx="6" fill="#1e293b" />
+      <text x="16" y="22" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">● READY</text>
+      <text x="90" y="22" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12">Total Baris: 250 Pegawai | Validasi: 100% Lolos | Formula Error: 0</text>
+      <text x="1300" y="22" fill="#64748b" font-family="'Space Grotesk', sans-serif" font-size="12">LUNIX Workflow v2.4</text>
+    </g>
+  </g>
+</svg>

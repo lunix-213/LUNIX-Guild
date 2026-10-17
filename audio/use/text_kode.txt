@@ -1,0 +1,42 @@
+📋 Daftar Naskah Suara Maskot (Kode: mw-0001 - mw-0017)
+🔹 Kategori 1: Pose Sapa / Welcome (mascot-welcome.png)
+
+Panduan intonasi: Ramah, ceria, hangat, menyambut pengunjung baru.
+
+mw-0001 – "Halo pengembara! Selamat datang di meja resepsionis LUNIX Guild. Silakan periksa berkas di papan atau klik bel meja." (EN: "Hello traveler! Welcome to the LUNIX Guild reception. Feel free to inspect the board or ring the desk bell.")
+mw-0002 – "Senang bertemu denganmu di meja resepsionis! Ruang ini dibangun dari rasa penasaran." (EN: "Wonderful to meet you at the reception desk! This space was built out of curiosity.")
+mw-0003 – "Pintu ide selalu terbuka lebar untuk para penjelajah." (EN: "The portal of ideas is always wide open for explorers.")
+🔹 Kategori 2: Pose Pandu / Explain (mascot-explain.png)
+
+Panduan intonasi: Bersemangat, informatif, mengajak melihat karya proyek.
+
+mw-0004 – "Lihat karya-karya ini! Dari otomatisasi spreadsheet hingga live sandbox web app." (EN: "Check out these works! From spreadsheet automations to a live web app sandbox.")
+mw-0005 – "Kamu bisa mencoba langsung demo Payroll dan Absensi dengan data tersimpan di browser!" (EN: "You can test the Attendance and Payroll demo directly with data stored in your browser!")
+mw-0006 – "Panggung 3D juga siap kamu putar dan jelajahi dalam sudut pandang perspektif." (EN: "The 3D stage is also ready for you to rotate and explore in perspective.")
+🔹 Kategori 3: Pose Pikir / Thinking (mascot-thinking.png)
+
+Panduan intonasi: Teduh, agak pelan, reflektif, seperti bercerita kisah masa lalu.
+
+mw-0007 – "Catatan Guild dibuka: Semua berawal dari rasa penasaran, bagaimana kalau kubuat sendiri?" (EN: "Opening the Guild Chronicle: It all began with curiosity, what if I built it myself?")
+mw-0008 – "Dari nama gamer LuniX hingga menjadi partner kreatif dalam mewujudkan ide." (EN: "From the gaming tag LuniX to a creative partner bringing ideas to life.")
+mw-0009 – "Pahami, coba, lalu wujudkan. Tiga langkah sederhana yang selalu kupegang teguh." (EN: "Understand, experiment, create. Three core tenets I always hold close.")
+🔹 Kategori 4: Pose Senang / Happy (mascot-happy.png)
+
+Panduan intonasi: Sangat gembira, antusias, bersahabat, penuh senyuman.
+
+mw-0010 – "Ting! Terima kasih sudah mampir! Punya ide seru? Mari kita wujudkan bersama!" (EN: "Chime! Thank you for stopping by! Have an exciting idea? Let's build together!")
+mw-0011 – "Senang sekali bisa berbagi karya denganmu! Hubungi aku lewat email ya." (EN: "So thrilled to share my creations with you! Drop me an email anytime.")
+mw-0012 – "Semoga kunjunganmu di LUNIX Guild berkesan dan menginspirasi." (EN: "May your visit to the LUNIX Guild be inspiring and memorable.")
+🔹 Kategori 5: Pose Siap & Kacamata / Showcase (mascot-showcase.png)
+
+Panduan intonasi: Percaya diri, tertata, profesional khas resepsionis guild.
+
+mw-0013 – "Resepsionis LUNIX siap membantumu. Klik buku untuk profil atau bel untuk kontak." (EN: "LUNIX receptionist at your service. Click the book for about or the bell to contact.")
+mw-0014 – "Kacamata sudah pas, berkas guild sudah tersusun rapi!" (EN: "Glasses adjusted, guild records neatly filed!")
+🔹 Kategori 6: Reaksi Interaktif Objek Meja (Events & Triggers)
+
+Panduan intonasi: Spontan, responsif terhadap sentuhan pengunjung.
+
+mw-0015 – (Reaksi saat Bel Meja diklik): "Ting! Ada yang bisa kubantu? Silakan hubungi kami di sini." (EN: "Chime! How may I help you? Please check our contact options right here.")
+mw-0016 – (Reaksi saat Buku Guild di meja diklik): "Membuka Catatan Guild... Inilah kisah di balik ruang LUNIX." (EN: "Opening the Guild Chronicle... Here is the story behind LUNIX.")
+mw-0017 – (Reaksi saat tombol Salin Email diklik): "Email tersalin! Senang sekali, kutunggu kabarmu ya!" (EN: "Email copied! Looking forward to your message!")

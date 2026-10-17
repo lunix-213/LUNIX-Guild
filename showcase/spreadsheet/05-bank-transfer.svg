@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <filter id="shadow5" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgGrad5)" />
+
+  <g transform="translate(60, 45)" filter="url(#shadow5)">
+    <rect width="1480" height="810" rx="14" fill="#0b1120" stroke="#334155" stroke-width="1.5" />
+
+    <!-- Topbar -->
+    <rect width="1480" height="52" rx="14" fill="#1e293b" />
+    <rect y="40" width="1480" height="12" fill="#1e293b" />
+    <circle cx="28" cy="26" r="7" fill="#ef4444" />
+    <circle cx="50" cy="26" r="7" fill="#f59e0b" />
+    <circle cx="72" cy="26" r="7" fill="#10b981" />
+    
+    <text x="740" y="32" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+      LUNIX Enterprise Sheets • [05] Integrasi Payroll Kliring Transfer Bank Otomatis.xlsx
+    </text>
+
+    <!-- Header Config & Selector -->
+    <g transform="translate(24, 75)">
+      <rect width="1432" height="95" rx="10" fill="#1e293b" stroke="#3730a3" stroke-width="1.2" />
+      
+      <text x="30" y="38" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="17" font-weight="700">
+        MODUL GENERATOR FILE KLIRING TRANSFER BANK (MASSAL)
+      </text>
+      <text x="30" y="62" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">
+        Konversi otomatis dari tabel payroll ke format standar perbankan tanpa perlu entri manual di portal internet banking.
+      </text>
+
+      <!-- Bank Selector Pills -->
+      <g transform="translate(800, 26)">
+        <rect width="180" height="42" rx="6" fill="#2563eb" />
+        <text x="90" y="26" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" text-anchor="middle">✓ KlikBCA Bisnis (CSV)</text>
+
+        <rect x="195" width="200" height="42" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="295" y="26" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" text-anchor="middle">Mandiri MCM (TXT / CSV)</text>
+
+        <rect x="410" width="180" height="42" rx="6" fill="#0f172a" stroke="#475569" stroke-width="1" />
+        <text x="500" y="26" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" text-anchor="middle">BRI CMS (Excel/TXT)</text>
+      </g>
+    </g>
+
+    <!-- Bank Output Preview Grid -->
+    <g transform="translate(24, 190)">
+      <rect width="1432" height="38" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="25" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">ROW</text>
+      <text x="80" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">REK. TUJUAN</text>
+      <text x="250" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">NAMA PENERIMA</text>
+      <text x="510" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">NOMINAL TRANSFER</text>
+      <text x="730" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">KODE BANK</text>
+      <text x="880" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">BERITA TRANSFER</text>
+      <text x="1150" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">EMAIL NOTIFIKASI</text>
+      <text x="1350" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">STATUS</text>
+
+      <!-- Row 1 -->
+      <g transform="translate(0, 38)">
+        <rect width="1432" height="50" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="25" y="30" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="13">01</text>
+        <text x="80" y="30" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">5420-192-881</text>
+        <text x="250" y="30" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600">Ahmad Rizky Pratama</text>
+        <text x="510" y="30" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">Rp 15.785.000</text>
+        <text x="730" y="30" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="13">BCA (014)</text>
+        <text x="880" y="30" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">Gaji Okt 2026 - LUNIX</text>
+        <text x="1150" y="30" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">ahmad.rizky@corp.com</text>
+        <text x="1370" y="30" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">READY ✓</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 88)">
+        <rect width="1432" height="50" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text x="25" y="30" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="13">02</text>
+        <text x="80" y="30" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">1370-019-224</text>
+        <text x="250" y="30" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Siti Nurhaliza Putri</text>
+        <text x="510" y="30" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">Rp 11.800.000</text>
+        <text x="730" y="30" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="13">MANDIRI (008)</text>
+        <text x="880" y="30" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">Gaji Okt 2026 - LUNIX</text>
+        <text x="1150" y="30" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">siti.nurhaliza@corp.com</text>
+        <text x="1370" y="30" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">READY ✓</text>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 138)">
+        <rect width="1432" height="50" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="25" y="30" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="13">03</text>
+        <text x="80" y="30" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">0129-441-009</text>
+        <text x="250" y="30" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Budi Wicaksono</text>
+        <text x="510" y="30" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700">Rp 8.190.000</text>
+        <text x="730" y="30" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="13">BCA (014)</text>
+        <text x="880" y="30" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13">Gaji Okt 2026 - LUNIX</text>
+        <text x="1150" y="30" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">budi.w@corp.com</text>
+        <text x="1370" y="30" fill="#10b981" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">READY ✓</text>
+      </g>
+    </g>
+
+    <!-- Raw Formatted String Preview Panel -->
+    <g transform="translate(24, 435)">
+      <rect width="1432" height="180" rx="8" fill="#030712" stroke="#3730a3" stroke-width="1.2" />
+      <text x="24" y="30" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">
+        HASIL FORMAT EXPORT (KLIKBCA AUTO-PAYROLL BATCH CSV):
+      </text>
+
+      <text x="24" y="65" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12">
+        H,20261025,5420190001,PT LUNIX SINERGI DIGITAL,250,1482650000,IDR,PAYROLL-OKT2026
+      </text>
+      <text x="24" y="95" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">
+        D,5420192881,AHMAD RIZKY PRATAMA,15785000,IDR,014,BCA,Gaji Okt 2026,ahmad.rizky@corp.com
+      </text>
+      <text x="24" y="125" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">
+        D,1370019224,SITI NURHALIZA PUTRI,11800000,IDR,008,MANDIRI,Gaji Okt 2026,siti.nurhaliza@corp.com
+      </text>
+      <text x="24" y="155" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">
+        D,0129441009,BUDI WICAKSONO,8190000,IDR,014,BCA,Gaji Okt 2026,budi.w@corp.com
+      </text>
+    </g>
+
+    <!-- Bottom Action Bar -->
+    <g transform="translate(24, 690)">
+      <rect width="1432" height="85" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+      
+      <text x="30" y="36" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">
+        SIAP DIUNGGAH KE PORTAL PERBANKAN
+      </text>
+      <text x="30" y="60" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12">
+        250 transaksi tervalidasi checksum • 0 nomor rekening salah • Total Rp 1.482.650.000
+      </text>
+
+      <!-- Action Button -->
+      <g transform="translate(1080, 20)">
+        <rect width="320" height="46" rx="8" fill="#10b981" />
+        <text x="160" y="29" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="800" text-anchor="middle">
+          📥 Download File Payroll (.CSV)
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

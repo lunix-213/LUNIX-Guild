@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgGrad3)" />
+
+  <g transform="translate(60, 45)" filter="url(#shadow3)">
+    <rect width="1480" height="810" rx="14" fill="#0b1120" stroke="#334155" stroke-width="1.5" />
+
+    <!-- Topbar -->
+    <rect width="1480" height="52" rx="14" fill="#1e293b" />
+    <rect y="40" width="1480" height="12" fill="#1e293b" />
+    <circle cx="28" cy="26" r="7" fill="#ef4444" />
+    <circle cx="50" cy="26" r="7" fill="#f59e0b" />
+    <circle cx="72" cy="26" r="7" fill="#10b981" />
+    
+    <text x="740" y="32" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+      LUNIX Enterprise Sheets • [03] Dashboard Eksekutif &amp; Visual Rekapitulasi Penggajian.xlsx
+    </text>
+
+    <!-- Top KPI Cards Row -->
+    <g transform="translate(24, 75)">
+      <!-- Card 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="338" height="110" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2" />
+        <text x="24" y="34" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">TOTAL BIAYA GAJI (BULANAN)</text>
+        <text x="24" y="74" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="800">Rp 1,48 M</text>
+        <text x="24" y="96" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12">▲ Efisiensi Anggaran +4.2%</text>
+      </g>
+      <!-- Card 2 -->
+      <g transform="translate(364, 0)">
+        <rect width="338" height="110" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1.2" />
+        <text x="24" y="34" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">TOTAL PEGAWAI AKTIF</text>
+        <text x="24" y="74" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="800">250 Pegawai</text>
+        <text x="24" y="96" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">100% Payroll Terdata</text>
+      </g>
+      <!-- Card 3 -->
+      <g transform="translate(728, 0)">
+        <rect width="338" height="110" rx="10" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2" />
+        <text x="24" y="34" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">JAM LEMBUR TEREKAP</text>
+        <text x="24" y="74" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="800">418 Jam</text>
+        <text x="24" y="96" fill="#f87171" font-family="'JetBrains Mono', monospace" font-size="12">Kompensasi: Rp 38,4 Jt</text>
+      </g>
+      <!-- Card 4 -->
+      <g transform="translate(1092, 0)">
+        <rect width="338" height="110" rx="10" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.2" />
+        <text x="24" y="34" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">WAKTU PROSES OTOMASI</text>
+        <text x="24" y="74" fill="#a78bfa" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="800">4 Menit 12s</text>
+        <text x="24" y="96" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12">⚡ 95% Lebih Cepat</text>
+      </g>
+    </g>
+
+    <!-- Main Visual Charts Section -->
+    <g transform="translate(24, 210)">
+      <!-- Left Chart: Department Allocation (Bar Chart) -->
+      <g transform="translate(0, 0)">
+        <rect width="890" height="565" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="28" y="40" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="17" font-weight="700">
+          ALOKASI BEBAN PENGGAJIAN PER DIVISI
+        </text>
+        <text x="28" y="62" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12">
+          Komparasi total gaji pokok, tunjangan kinerja, dan lembur antar departemen.
+        </text>
+
+        <!-- Bar 1: Engineering -->
+        <g transform="translate(28, 100)">
+          <text x="0" y="20" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">Engineering &amp; Tech (85 Org)</text>
+          <text x="830" y="20" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" text-anchor="end">Rp 612.000.000</text>
+          <rect y="30" width="830" height="24" rx="4" fill="#0f172a" />
+          <rect y="30" width="620" height="24" rx="4" fill="#3b82f6" />
+        </g>
+
+        <!-- Bar 2: Operations -->
+        <g transform="translate(28, 185)">
+          <text x="0" y="20" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">Operations &amp; Logistics (72 Org)</text>
+          <text x="830" y="20" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" text-anchor="end">Rp 415.000.000</text>
+          <rect y="30" width="830" height="24" rx="4" fill="#0f172a" />
+          <rect y="30" width="440" height="24" rx="4" fill="#10b981" />
+        </g>
+
+        <!-- Bar 3: Sales & Marketing -->
+        <g transform="translate(28, 270)">
+          <text x="0" y="20" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">Sales &amp; Growth (48 Org)</text>
+          <text x="830" y="20" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" text-anchor="end">Rp 285.000.000</text>
+          <rect y="30" width="830" height="24" rx="4" fill="#0f172a" />
+          <rect y="30" width="310" height="24" rx="4" fill="#f59e0b" />
+        </g>
+
+        <!-- Bar 4: General HR & Finance -->
+        <g transform="translate(28, 355)">
+          <text x="0" y="20" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">General HR &amp; Corporate (45 Org)</text>
+          <text x="830" y="20" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" text-anchor="end">Rp 170.650.000</text>
+          <rect y="30" width="830" height="24" rx="4" fill="#0f172a" />
+          <rect y="30" width="200" height="24" rx="4" fill="#8b5cf6" />
+        </g>
+
+        <rect x="28" y="475" width="830" height="50" rx="6" fill="#0f172a" />
+        <text x="48" y="505" fill="#34d399" font-family="'Space Grotesk', sans-serif" font-size="13">
+          ✓ Seluruh grafik terhubung dinamis via formula query &amp; filter pivot otomatis.
+        </text>
+      </g>
+
+      <!-- Right Chart: Donut Breakdown & Quick Actions -->
+      <g transform="translate(916, 0)">
+        <rect width="514" height="565" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <text x="28" y="40" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="17" font-weight="700">
+          KOMPOSISI PENGELUARAN
+        </text>
+
+        <!-- Circular Donut SVG representation -->
+        <g transform="translate(257, 180)">
+          <circle cx="0" cy="0" r="100" fill="none" stroke="#334155" stroke-width="32" />
+          <circle cx="0" cy="0" r="100" fill="none" stroke="#3b82f6" stroke-width="32" stroke-dasharray="410 628" stroke-dashoffset="0" />
+          <circle cx="0" cy="0" r="100" fill="none" stroke="#10b981" stroke-width="32" stroke-dasharray="125 628" stroke-dashoffset="-410" />
+          <circle cx="0" cy="0" r="100" fill="none" stroke="#f59e0b" stroke-width="32" stroke-dasharray="93 628" stroke-dashoffset="-535" />
+          <text x="0" y="-5" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="800" text-anchor="middle">TOTAL</text>
+          <text x="0" y="20" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" text-anchor="middle">100%</text>
+        </g>
+
+        <!-- Legend Items -->
+        <g transform="translate(40, 335)">
+          <circle cx="10" cy="10" r="6" fill="#3b82f6" />
+          <text x="28" y="14" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13">Gaji Pokok Karyawan (68%)</text>
+          
+          <circle cx="10" cy="40" r="6" fill="#10b981" />
+          <text x="28" y="44" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13">Tunjangan &amp; Insentif (20%)</text>
+
+          <circle cx="10" cy="70" r="6" fill="#f59e0b" />
+          <text x="28" y="74" fill="#cbd5e1" font-family="'Space Grotesk', sans-serif" font-size="13">Lembur &amp; Bonus Kinerja (12%)</text>
+        </g>
+
+        <!-- Action Panel -->
+        <g transform="translate(35, 450)">
+          <rect width="444" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1" />
+          <text x="20" y="32" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="12">KONTROL EKSEKUTIF CEPAT</text>
+          <rect x="20" y="44" width="195" height="28" rx="4" fill="#2563eb" />
+          <text x="117" y="63" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">📥 Export PDF Rekap</text>
+          <rect x="230" y="44" width="195" height="28" rx="4" fill="#10b981" />
+          <text x="327" y="63" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700" text-anchor="middle">⚡ Refresh Dashboard</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

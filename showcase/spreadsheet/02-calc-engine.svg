@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgGrad2)" />
+
+  <g transform="translate(60, 45)" filter="url(#shadow2)">
+    <rect width="1480" height="810" rx="14" fill="#0b1120" stroke="#334155" stroke-width="1.5" />
+
+    <!-- Topbar -->
+    <rect width="1480" height="52" rx="14" fill="#1e293b" />
+    <rect y="40" width="1480" height="12" fill="#1e293b" />
+    <circle cx="28" cy="26" r="7" fill="#ef4444" />
+    <circle cx="50" cy="26" r="7" fill="#f59e0b" />
+    <circle cx="72" cy="26" r="7" fill="#10b981" />
+    
+    <text x="740" y="32" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600" text-anchor="middle">
+      LUNIX Enterprise Sheets • [02] Engine Kalkulasi Otomatis Gaji, BPJS &amp; Pajak PPh21.xlsx
+    </text>
+
+    <!-- Formula Bar Highlighted -->
+    <g transform="translate(24, 70)">
+      <rect width="70" height="36" rx="4" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+      <text x="35" y="23" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" text-anchor="middle">M12</text>
+      
+      <rect x="80" width="40" height="36" rx="4" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+      <text x="100" y="23" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="700" text-anchor="middle">fx</text>
+
+      <rect x="130" width="1326" height="36" rx="4" fill="#030712" stroke="#6366f1" stroke-width="1.5" />
+      <text x="146" y="23" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13">
+        =ROUND( (F12 + G12 + H12) - ( (F12 * $C$4) + (F12 * $C$5) + VLOOKUP(I12, PTKP_Tiers, 4, TRUE) ), 0 )
+      </text>
+    </g>
+
+    <!-- Logic Engine Architecture Cards -->
+    <g transform="translate(24, 120)">
+      <g transform="translate(0, 0)">
+        <rect width="464" height="85" rx="8" fill="#1e293b" stroke="#3730a3" stroke-width="1.2" />
+        <text x="20" y="32" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">01. FORMULA PENDAPATAN KOTOR</text>
+        <text x="20" y="58" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Gaji Pokok + Tunjangan + Lembur</text>
+        <text x="380" y="58" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">AUTOMATED</text>
+      </g>
+      <g transform="translate(484, 0)">
+        <rect width="464" height="85" rx="8" fill="#1e293b" stroke="#065f46" stroke-width="1.2" />
+        <text x="20" y="32" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">02. POTONGAN REGULASI &amp; BPJS</text>
+        <text x="20" y="58" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">BPJS TK (3%) + Kes (1%) + PPh 21</text>
+        <text x="390" y="58" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">TIER-BASED</text>
+      </g>
+      <g transform="translate(968, 0)">
+        <rect width="464" height="85" rx="8" fill="#1e293b" stroke="#9a3412" stroke-width="1.2" />
+        <text x="20" y="32" fill="#fb923c" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">03. TAKE HOME PAY (BERSIH)</text>
+        <text x="20" y="58" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Total Kotor − Total Potongan</text>
+        <text x="380" y="58" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">READY BANK</text>
+      </g>
+    </g>
+
+    <!-- Calculation Engine Matrix Grid -->
+    <g transform="translate(24, 225)">
+      <rect width="1432" height="38" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="25" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">NAMA PEGAWAI</text>
+      <text x="240" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">GAJI POKOK</text>
+      <text x="400" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">TUNJANGAN</text>
+      <text x="560" y="24" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">UPAH LEMBUR</text>
+      <text x="730" y="24" fill="#818cf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">GROSS SALARY</text>
+      <text x="920" y="24" fill="#f87171" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">BPJS &amp; PAJAK</text>
+      <text x="1100" y="24" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">POT. LAINNYA</text>
+      <text x="1270" y="24" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">TAKE HOME PAY</text>
+
+      <!-- Row 1 -->
+      <g transform="translate(0, 38)">
+        <rect width="1432" height="48" fill="#1e293b" fill-opacity="0.8" stroke="#3730a3" stroke-width="1" />
+        <text x="25" y="29" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="600">Ahmad Rizky Pratama</text>
+        <text x="240" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 12.500.000</text>
+        <text x="400" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 3.000.000</text>
+        <text x="560" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 1.150.000</text>
+        <text x="730" y="29" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">Rp 16.650.000</text>
+        <text x="920" y="29" fill="#fca5a5" font-family="'JetBrains Mono', monospace" font-size="13">Rp (865.000)</text>
+        <text x="1100" y="29" fill="#fcd34d" font-family="'JetBrains Mono', monospace" font-size="13">Rp (0)</text>
+        <text x="1270" y="29" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800">Rp 15.785.000</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 86)">
+        <rect width="1432" height="48" fill="#0f172a" stroke="#334155" stroke-width="1" />
+        <text x="25" y="29" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Siti Nurhaliza Putri</text>
+        <text x="240" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 9.800.000</text>
+        <text x="400" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 2.200.000</text>
+        <text x="560" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 420.000</text>
+        <text x="730" y="29" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">Rp 12.420.000</text>
+        <text x="920" y="29" fill="#fca5a5" font-family="'JetBrains Mono', monospace" font-size="13">Rp (620.000)</text>
+        <text x="1100" y="29" fill="#fcd34d" font-family="'JetBrains Mono', monospace" font-size="13">Rp (0)</text>
+        <text x="1270" y="29" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800">Rp 11.800.000</text>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 134)">
+        <rect width="1432" height="48" fill="#1e293b" fill-opacity="0.4" stroke="#334155" stroke-width="1" />
+        <text x="25" y="29" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="14">Budi Wicaksono</text>
+        <text x="240" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 6.500.000</text>
+        <text x="400" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 1.500.000</text>
+        <text x="560" y="29" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="13">Rp 750.000</text>
+        <text x="730" y="29" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700">Rp 8.750.000</text>
+        <text x="920" y="29" fill="#fca5a5" font-family="'JetBrains Mono', monospace" font-size="13">Rp (410.000)</text>
+        <text x="1100" y="29" fill="#fcd34d" font-family="'JetBrains Mono', monospace" font-size="13">Rp (150.000)</text>
+        <text x="1270" y="29" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="14" font-weight="800">Rp 8.190.000</text>
+      </g>
+    </g>
+
+    <!-- Total Summary Banner -->
+    <g transform="translate(24, 730)">
+      <rect width="1432" height="60" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+      <text x="30" y="36" fill="#c7d2fe" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">
+        TOTAL DISBURSEMENT (PERIODE OKTOBER 2026):
+      </text>
+      <text x="1140" y="38" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="22" font-weight="900" text-anchor="end">
+        Rp 1.482.650.000
+      </text>
+      <rect x="1170" y="14" width="230" height="32" rx="6" fill="#10b981" />
+      <text x="1285" y="35" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="800" text-anchor="middle">
+        ✓ Balanced &amp; Verified
+      </text>
+    </g>
+  </g>
+</svg>

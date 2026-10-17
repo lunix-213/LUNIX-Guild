@@ -1,0 +1,12 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# IDE & Editor
+.vscode/
+.idea/
+*.log
