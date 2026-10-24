@@ -12,7 +12,7 @@ Sebuah portofolio web interaktif bertema Guild Fantasi (*Guild Reception Hall & 
 3. **Papan Pengumuman Quest:** Tumpukan lembaran misi kuno untuk menampilkan karya unggulan.
 4. **Spreadsheet & Data Pipeline Showcase:** Preview interaktif formula, dashboard, dan integrasi enterprise.
 5. **3D Web Showcase — McLaren:** Panggung showcase kendaraan 3D interaktif real-time berbasis WebGL ([Kunjungi](https://lunix-213.github.io/lunix-3d-webshowcase-mclaren/)).
-6. **Live Attendance & Payroll Studio:** Sandbox mandiri client-side simulasi absensi & slip gaji enterprise via IndexedDB.
+6. **Live Attendance & Payroll Studio:** Sandbox mandiri client-side simulasi absensi & slip gaji enterprise via IndexedDB ([Kunjungi Demo](https://lunix-213.github.io/lunix-demo-gaji/)).
 
 ---
 
