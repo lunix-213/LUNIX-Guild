@@ -2,7 +2,7 @@
 
 Sebuah portofolio web interaktif bertema Guild Fantasi (*Guild Reception Hall & Interactive Entrance Experience*).
 
-🌐 **Live Demo:** [https://lunix-213.github.io/](https://lunix-213.github.io/)
+🌐 **Live Demo:** [https://lunix-213.github.io/LUNIX-Guild/](https://lunix-213.github.io/LUNIX-Guild/)
 
 ---
 
