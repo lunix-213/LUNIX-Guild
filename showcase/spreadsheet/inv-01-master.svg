@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="invBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020b12"/>
+      <stop offset="50%" stop-color="#061923"/>
+      <stop offset="100%" stop-color="#0b1526"/>
+    </linearGradient>
+    <linearGradient id="invHead1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#0f2942"/>
+    </linearGradient>
+    <filter id="invShadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#invBg1)"/>
+  <g transform="translate(55, 42)" filter="url(#invShadow1)">
+    <rect width="1490" height="816" rx="16" fill="#0b1322" stroke="#1e3a4c" stroke-width="1.6"/>
+    <!-- Window Chrome -->
+    <rect width="1490" height="54" rx="16" fill="url(#invHead1)"/>
+    <rect y="40" width="1490" height="14" fill="url(#invHead1)"/>
+    <circle cx="28" cy="27" r="7" fill="#ef4444"/>
+    <circle cx="50" cy="27" r="7" fill="#f59e0b"/>
+    <circle cx="72" cy="27" r="7" fill="#10b981"/>
+    <rect x="104" y="14" width="110" height="26" rx="6" fill="rgba(16,185,129,0.22)" stroke="#34d399" stroke-width="1"/>
+    <text x="159" y="31" fill="#6ee7b7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">SHEETS PRO</text>
+    <text x="745" y="33" fill="#e2e8f0" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700" text-anchor="middle">LUNIX Inventory OS • [01] Master SKU &amp; Multi-Warehouse Stock Ledger.xlsx</text>
+    <rect x="1320" y="14" width="146" height="26" rx="13" fill="rgba(16,185,129,0.2)" stroke="#10b981"/>
+    <text x="1393" y="31" fill="#6ee7b7" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">● 3 GUDANG SYNC</text>
+
+    <!-- Formula Bar -->
+    <rect x="0" y="54" width="1490" height="44" fill="#0f1b2e"/>
+    <line x1="0" y1="98" x2="1490" y2="98" stroke="#1e293b" stroke-width="1.2"/>
+    <rect x="20" y="64" width="74" height="24" rx="5" fill="#1e293b" stroke="#334155"/>
+    <text x="57" y="80" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" text-anchor="middle">I4:I12</text>
+    <text x="114" y="81" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="800">fx</text>
+    <text x="144" y="81" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="12.5">=ARRAYFORMULA(IF(G4:G12&lt;=H4:H12*0.5,"KRITIS",IF(G4:G12&lt;=H4:H12,"RESTOCK","AMAN")))</text>
+
+    <!-- Summary KPI Strip -->
+    <g transform="translate(24, 114)">
+      <rect width="340" height="86" rx="10" fill="#132238" stroke="#10b981" stroke-width="1.2"/>
+      <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">TOTAL SKU AKTIF</text>
+      <text x="20" y="62" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="800">1.248 SKU</text>
+      <text x="205" y="62" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700">100% Barcode</text>
+
+      <g transform="translate(366, 0)">
+        <rect width="340" height="86" rx="10" fill="#132238" stroke="#38bdf8" stroke-width="1.2"/>
+        <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">TOTAL NILAI STOK</text>
+        <text x="20" y="62" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="800">Rp 4,82 M</text>
+        <text x="210" y="62" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">JKT · SBY · BDG</text>
+      </g>
+
+      <g transform="translate(732, 0)">
+        <rect width="340" height="86" rx="10" fill="#132238" stroke="#f59e0b" stroke-width="1.2"/>
+        <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">PERLU RESTOCK</text>
+        <text x="20" y="62" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="800">14 SKU</text>
+        <text x="175" y="62" fill="#fde68a" font-family="'JetBrains Mono', monospace" font-size="12">Auto-Alert Aktif</text>
+      </g>
+
+      <g transform="translate(1098, 0)">
+        <rect width="344" height="86" rx="10" fill="#132238" stroke="#ef4444" stroke-width="1.2"/>
+        <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">STOK KRITIS (&lt;50% MIN)</text>
+        <text x="20" y="62" fill="#f87171" font-family="'JetBrains Mono', monospace" font-size="26" font-weight="800">3 SKU</text>
+        <text x="165" y="62" fill="#fca5a5" font-family="'JetBrains Mono', monospace" font-size="12">PO Siap Kirim</text>
+      </g>
+    </g>
+
+    <!-- Main Spreadsheet Grid -->
+    <g transform="translate(24, 218)">
+      <rect width="1442" height="534" rx="10" fill="#0f172a" stroke="#243550" stroke-width="1.2"/>
+      <!-- Header Row -->
+      <rect width="1442" height="44" rx="10" fill="#17253d"/>
+      <rect y="34" width="1442" height="10" fill="#17253d"/>
+      <text x="24" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700">SKU / BARCODE</text>
+      <text x="205" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700">NAMA PRODUK &amp; KATEGORI</text>
+      <text x="590" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="end">GUDANG JKT</text>
+      <text x="720" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="end">GUDANG SBY</text>
+      <text x="850" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="end">GUDANG BDG</text>
+      <text x="995" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="end">TOTAL STOK</text>
+      <text x="1135" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="end">SAFETY MIN</text>
+      <text x="1310" y="27" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="middle">STATUS OTOMATIS</text>
+
+      <!-- Rows -->
+      <g transform="translate(0, 44)" font-family="'Space Grotesk', sans-serif" font-size="13.5">
+        <!-- Row 1 -->
+        <rect width="1442" height="68" fill="#0f172a"/>
+        <line x1="0" y1="68" x2="1442" y2="68" stroke="#1e293b"/>
+        <text x="24" y="39" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="700">SKU-EL-1042</text>
+        <text x="205" y="33" fill="#f8fafc" font-weight="700">Thermal Printer Pro 80mm USB+BT</text>
+        <text x="205" y="53" fill="#64748b" font-size="11.5">Hardware POS • Rak A-04 • FIFO Batch #2609</text>
+        <text x="590" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">142</text>
+        <text x="720" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">86</text>
+        <text x="850" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">54</text>
+        <text x="995" y="40" fill="#34d399" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">282 unit</text>
+        <text x="1135" y="40" fill="#94a3b8" font-family="'JetBrains Mono', monospace" text-anchor="end">120 unit</text>
+        <rect x="1232" y="20" width="156" height="28" rx="14" fill="rgba(16,185,129,0.18)" stroke="#10b981"/>
+        <text x="1310" y="39" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="800" text-anchor="middle">✓ AMAN (235%)</text>
+
+        <!-- Row 2 -->
+        <g transform="translate(0, 68)">
+          <rect width="1442" height="68" fill="#131e33"/>
+          <line x1="0" y1="68" x2="1442" y2="68" stroke="#1e293b"/>
+          <text x="24" y="39" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="700">SKU-AC-2019</text>
+          <text x="205" y="33" fill="#f8fafc" font-weight="700">Barcode Scanner Wireless 2D Laser</text>
+          <text x="205" y="53" fill="#64748b" font-size="11.5">Aksesoris Gudang • Rak B-12 • Fast Moving</text>
+          <text x="590" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">28</text>
+          <text x="720" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">19</text>
+          <text x="850" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">14</text>
+          <text x="995" y="40" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">61 unit</text>
+          <text x="1135" y="40" fill="#94a3b8" font-family="'JetBrains Mono', monospace" text-anchor="end">80 unit</text>
+          <rect x="1232" y="20" width="156" height="28" rx="14" fill="rgba(245,158,11,0.2)" stroke="#f59e0b"/>
+          <text x="1310" y="39" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="800" text-anchor="middle">⚠ RESTOCK</text>
+        </g>
+
+        <!-- Row 3 -->
+        <g transform="translate(0, 136)">
+          <rect width="1442" height="68" fill="rgba(239,68,68,0.08)"/>
+          <line x1="0" y1="68" x2="1442" y2="68" stroke="#1e293b"/>
+          <text x="24" y="39" fill="#f87171" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="700">SKU-PK-3308</text>
+          <text x="205" y="33" fill="#f8fafc" font-weight="700">Kertas Thermal Roll 80×80mm (Box 50)</text>
+          <text x="205" y="53" fill="#fca5a5" font-size="11.5">Consumable • Rak C-01 • Estimasi habis 2 hari</text>
+          <text x="590" y="40" fill="#fca5a5" font-family="'JetBrains Mono', monospace" text-anchor="end">12</text>
+          <text x="720" y="40" fill="#fca5a5" font-family="'JetBrains Mono', monospace" text-anchor="end">8</text>
+          <text x="850" y="40" fill="#fca5a5" font-family="'JetBrains Mono', monospace" text-anchor="end">4</text>
+          <text x="995" y="40" fill="#f87171" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">24 box</text>
+          <text x="1135" y="40" fill="#94a3b8" font-family="'JetBrains Mono', monospace" text-anchor="end">100 box</text>
+          <rect x="1232" y="20" width="156" height="28" rx="14" fill="rgba(239,68,68,0.24)" stroke="#ef4444"/>
+          <text x="1310" y="39" fill="#fca5a5" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="800" text-anchor="middle">● KRITIS (24%)</text>
+        </g>
+
+        <!-- Row 4 -->
+        <g transform="translate(0, 204)">
+          <rect width="1442" height="68" fill="#0f172a"/>
+          <line x1="0" y1="68" x2="1442" y2="68" stroke="#1e293b"/>
+          <text x="24" y="39" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="700">SKU-NT-4410</text>
+          <text x="205" y="33" fill="#f8fafc" font-weight="700">Industrial Router Dual-WAN 5G</text>
+          <text x="205" y="53" fill="#64748b" font-size="11.5">Networking • Rak D-08 • High Value Asset</text>
+          <text x="590" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">48</text>
+          <text x="720" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">32</text>
+          <text x="850" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">24</text>
+          <text x="995" y="40" fill="#34d399" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">104 unit</text>
+          <text x="1135" y="40" fill="#94a3b8" font-family="'JetBrains Mono', monospace" text-anchor="end">40 unit</text>
+          <rect x="1232" y="20" width="156" height="28" rx="14" fill="rgba(16,185,129,0.18)" stroke="#10b981"/>
+          <text x="1310" y="39" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="800" text-anchor="middle">✓ AMAN (260%)</text>
+        </g>
+
+        <!-- Row 5 -->
+        <g transform="translate(0, 272)">
+          <rect width="1442" height="68" fill="#131e33"/>
+          <line x1="0" y1="68" x2="1442" y2="68" stroke="#1e293b"/>
+          <text x="24" y="39" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="700">SKU-TB-5102</text>
+          <text x="205" y="33" fill="#f8fafc" font-weight="700">Android POS Terminal 10.1" NFC</text>
+          <text x="205" y="53" fill="#64748b" font-size="11.5">Hardware POS • Rak A-09 • Serial Tracked</text>
+          <text x="590" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">64</text>
+          <text x="720" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">42</text>
+          <text x="850" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">38</text>
+          <text x="995" y="40" fill="#34d399" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">144 unit</text>
+          <text x="1135" y="40" fill="#94a3b8" font-family="'JetBrains Mono', monospace" text-anchor="end">60 unit</text>
+          <rect x="1232" y="20" width="156" height="28" rx="14" fill="rgba(16,185,129,0.18)" stroke="#10b981"/>
+          <text x="1310" y="39" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="800" text-anchor="middle">✓ AMAN (240%)</text>
+        </g>
+
+        <!-- Row 6 -->
+        <g transform="translate(0, 340)">
+          <rect width="1442" height="68" fill="#0f172a"/>
+          <line x1="0" y1="68" x2="1442" y2="68" stroke="#1e293b"/>
+          <text x="24" y="39" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="700">SKU-CB-6088</text>
+          <text x="205" y="33" fill="#f8fafc" font-weight="700">Kabel LAN Cat6A Shielded 305m</text>
+          <text x="205" y="53" fill="#64748b" font-size="11.5">Instalasi • Rak E-02 • Auto Reorder Trigger</text>
+          <text x="590" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">15</text>
+          <text x="720" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">11</text>
+          <text x="850" y="40" fill="#e2e8f0" font-family="'JetBrains Mono', monospace" text-anchor="end">9</text>
+          <text x="995" y="40" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">35 roll</text>
+          <text x="1135" y="40" fill="#94a3b8" font-family="'JetBrains Mono', monospace" text-anchor="end">40 roll</text>
+          <rect x="1232" y="20" width="156" height="28" rx="14" fill="rgba(245,158,11,0.2)" stroke="#f59e0b"/>
+          <text x="1310" y="39" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="800" text-anchor="middle">⚠ RESTOCK</text>
+        </g>
+      </g>
+
+      <!-- Bottom Sheet Tabs -->
+      <g transform="translate(16, 488)">
+        <rect width="175" height="32" rx="7" fill="#10b981"/>
+        <text x="87" y="21" fill="#022c22" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" text-anchor="middle">01_MASTER_SKU</text>
+        <rect x="184" width="175" height="32" rx="7" fill="#17253d"/>
+        <text x="271" y="21" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">02_MUTASI_FIFO</text>
+        <rect x="368" width="195" height="32" rx="7" fill="#17253d"/>
+        <text x="465" y="21" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">03_DASHBOARD_STOK</text>
+        <text x="1410" y="21" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11" text-anchor="end">✓ Validasi Anti-Stok Minus &amp; Auto-Alert Email Aktif</text>
+      </g>
+    </g>
+  </g>
+</svg>

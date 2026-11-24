@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="finBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#0d152b"/>
+      <stop offset="100%" stop-color="#17102e"/>
+    </linearGradient>
+    <filter id="finShadow1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#finBg1)"/>
+  <g transform="translate(55, 42)" filter="url(#finShadow1)">
+    <rect width="1490" height="816" rx="16" fill="#0c1324" stroke="#2e3b64" stroke-width="1.6"/>
+    <rect width="1490" height="54" rx="16" fill="#172042"/>
+    <rect y="40" width="1490" height="14" fill="#172042"/>
+    <circle cx="28" cy="27" r="7" fill="#ef4444"/>
+    <circle cx="50" cy="27" r="7" fill="#f59e0b"/>
+    <circle cx="72" cy="27" r="7" fill="#10b981"/>
+    <text x="745" y="33" fill="#e2e8f0" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700" text-anchor="middle">LUNIX Finance Engine • [01] Buku Kas Cerdas &amp; Rekonsiliasi Bank Otomatis.xlsx</text>
+    <rect x="1312" y="14" width="154" height="26" rx="13" fill="rgba(56,189,248,0.18)" stroke="#38bdf8"/>
+    <text x="1389" y="31" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" text-anchor="middle">✓ AUTO-RECONCILE</text>
+
+    <!-- Formula bar -->
+    <rect y="54" width="1490" height="44" fill="#101a34"/>
+    <line x1="0" y1="98" x2="1490" y2="98" stroke="#1e293b"/>
+    <text x="32" y="81" fill="#a78bfa" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="800">fx</text>
+    <text x="64" y="81" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="12.5">=ARRAYFORMULA(XLOOKUP(REGEXEXTRACT(C4:C200,"AWS|META|PAYROLL|CLIENT"),Rules!A:A,Rules!B:B,"OPEX UMUM"))</text>
+
+    <!-- Cashflow KPI Strip -->
+    <g transform="translate(24, 114)">
+      <rect width="340" height="88" rx="10" fill="#141f3a" stroke="#10b981"/>
+      <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">TOTAL KAS MASUK (INFLOW)</text>
+      <text x="20" y="64" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="800">Rp 842,5 Jt</text>
+      <text x="215" y="64" fill="#6ee7b7" font-family="'JetBrains Mono', monospace" font-size="11.5">▲ +12.4% MoM</text>
+
+      <g transform="translate(366, 0)">
+        <rect width="340" height="88" rx="10" fill="#141f3a" stroke="#f59e0b"/>
+        <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">TOTAL KAS KELUAR (OUTFLOW)</text>
+        <text x="20" y="64" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="800">Rp 598,2 Jt</text>
+        <text x="215" y="64" fill="#fde68a" font-family="'JetBrains Mono', monospace" font-size="11.5">71% dari Inflow</text>
+      </g>
+
+      <g transform="translate(732, 0)">
+        <rect width="340" height="88" rx="10" fill="#141f3a" stroke="#3b82f6"/>
+        <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">NET CASHFLOW BULANAN</text>
+        <text x="20" y="64" fill="#60a5fa" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="800">+Rp 244,3 Jt</text>
+        <text x="228" y="64" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11.5">Surplus 29%</text>
+      </g>
+
+      <g transform="translate(1098, 0)">
+        <rect width="344" height="88" rx="10" fill="#141f3a" stroke="#a78bfa"/>
+        <text x="20" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">STATUS REKONSILIASI BANK</text>
+        <text x="20" y="64" fill="#c4b5fd" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="800">100% Match</text>
+        <text x="220" y="64" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11.5">Selisih Rp 0</text>
+      </g>
+    </g>
+
+    <!-- Transaction Table -->
+    <g transform="translate(24, 220)">
+      <rect width="1442" height="568" rx="12" fill="#0f172a" stroke="#243550"/>
+      <rect width="1442" height="44" rx="12" fill="#1a2542"/>
+      <rect y="34" width="1442" height="10" fill="#1a2542"/>
+      <text x="24" y="28" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700">TANGGAL</text>
+      <text x="155" y="28" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700">DESKRIPSI MUTASI BANK</text>
+      <text x="580" y="28" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700">AUTO-KATEGORI POS</text>
+      <text x="860" y="28" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="end">DEBIT / KREDIT</text>
+      <text x="1080" y="28" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="end">SALDO BERJALAN</text>
+      <text x="1310" y="28" fill="#a5b4fc" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" text-anchor="middle">REKONSILIASI</text>
+
+      <g transform="translate(0, 46)" font-family="'Space Grotesk', sans-serif" font-size="13.5">
+        <rect width="1442" height="74" fill="#0f172a"/>
+        <line x1="0" y1="74" x2="1442" y2="74" stroke="#1e293b"/>
+        <text x="24" y="42" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">2026-09-28</text>
+        <text x="155" y="34" fill="#f8fafc" font-weight="700">INV-2026-0918 • Pembayaran Retainer PT Nusantara</text>
+        <text x="155" y="54" fill="#64748b" font-size="11.5">BCA Corporate • Ref #TR8841209</text>
+        <rect x="576" y="22" width="160" height="28" rx="14" fill="rgba(16,185,129,0.18)" stroke="#10b981"/>
+        <text x="656" y="41" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" text-anchor="middle">REVENUE • B2B</text>
+        <text x="860" y="42" fill="#34d399" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">+Rp 185.000.000</text>
+        <text x="1080" y="42" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-weight="700" text-anchor="end">Rp 1.842.500.000</text>
+        <text x="1310" y="42" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" text-anchor="middle">✓ MATCHED</text>
+
+        <g transform="translate(0, 74)">
+          <rect width="1442" height="74" fill="#131d36"/>
+          <line x1="0" y1="74" x2="1442" y2="74" stroke="#1e293b"/>
+          <text x="24" y="42" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">2026-09-25</text>
+          <text x="155" y="34" fill="#f8fafc" font-weight="700">PAYROLL BATCH SEP 2026 — KlikBCA Kliring</text>
+          <text x="155" y="54" fill="#64748b" font-size="11.5">Auto-Link Sheet Payroll • 18 Rekening</text>
+          <rect x="576" y="22" width="160" height="28" rx="14" fill="rgba(59,130,246,0.2)" stroke="#3b82f6"/>
+          <text x="656" y="41" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" text-anchor="middle">OPEX • PAYROLL</text>
+          <text x="860" y="42" fill="#f87171" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">-Rp 271.396.500</text>
+          <text x="1080" y="42" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-weight="700" text-anchor="end">Rp 1.657.500.000</text>
+          <text x="1310" y="42" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" text-anchor="middle">✓ MATCHED</text>
+        </g>
+
+        <g transform="translate(0, 148)">
+          <rect width="1442" height="74" fill="#0f172a"/>
+          <line x1="0" y1="74" x2="1442" y2="74" stroke="#1e293b"/>
+          <text x="24" y="42" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">2026-09-21</text>
+          <text x="155" y="34" fill="#f8fafc" font-weight="700">AWS Cloud &amp; GCP Production Infrastructure</text>
+          <text x="155" y="54" fill="#64748b" font-size="11.5">Corporate Card • Auto-Tag Regex "AWS"</text>
+          <rect x="576" y="22" width="160" height="28" rx="14" fill="rgba(168,85,247,0.2)" stroke="#a855f7"/>
+          <text x="656" y="41" fill="#d8b4fe" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" text-anchor="middle">INFRA • CLOUD</text>
+          <text x="860" y="42" fill="#f87171" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">-Rp 34.800.000</text>
+          <text x="1080" y="42" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-weight="700" text-anchor="end">Rp 1.928.896.500</text>
+          <text x="1310" y="42" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" text-anchor="middle">✓ MATCHED</text>
+        </g>
+
+        <g transform="translate(0, 222)">
+          <rect width="1442" height="74" fill="#131d36"/>
+          <line x1="0" y1="74" x2="1442" y2="74" stroke="#1e293b"/>
+          <text x="24" y="42" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">2026-09-18</text>
+          <text x="155" y="34" fill="#f8fafc" font-weight="700">META &amp; Google Ads Q3 Campaign Acquisition</text>
+          <text x="155" y="54" fill="#fbbf24" font-size="11.5">⚠ Mendekati batas plafon budget marketing (96%)</text>
+          <rect x="576" y="22" width="160" height="28" rx="14" fill="rgba(245,158,11,0.2)" stroke="#f59e0b"/>
+          <text x="656" y="41" fill="#fde68a" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" text-anchor="middle">GROWTH • ADS</text>
+          <text x="860" y="42" fill="#f87171" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">-Rp 68.500.000</text>
+          <text x="1080" y="42" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-weight="700" text-anchor="end">Rp 1.963.696.500</text>
+          <text x="1310" y="42" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" text-anchor="middle">⚡ REVIEW</text>
+        </g>
+
+        <g transform="translate(0, 296)">
+          <rect width="1442" height="74" fill="#0f172a"/>
+          <line x1="0" y1="74" x2="1442" y2="74" stroke="#1e293b"/>
+          <text x="24" y="42" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12">2026-09-14</text>
+          <text x="155" y="34" fill="#f8fafc" font-weight="700">INV-2026-0904 • Lisensi Enterprise Annual SaaS</text>
+          <text x="155" y="54" fill="#64748b" font-size="11.5">Mandiri MCM • Auto-Invoice PDF Sent</text>
+          <rect x="576" y="22" width="160" height="28" rx="14" fill="rgba(16,185,129,0.18)" stroke="#10b981"/>
+          <text x="656" y="41" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800" text-anchor="middle">REVENUE • SAAS</text>
+          <text x="860" y="42" fill="#34d399" font-family="'JetBrains Mono', monospace" font-weight="800" text-anchor="end">+Rp 240.000.000</text>
+          <text x="1080" y="42" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-weight="700" text-anchor="end">Rp 2.032.196.500</text>
+          <text x="1310" y="42" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" text-anchor="middle">✓ MATCHED</text>
+        </g>
+      </g>
+
+      <rect x="20" y="502" width="1402" height="46" rx="8" fill="#132238"/>
+      <text x="42" y="530" fill="#7dd3fc" font-family="'JetBrains Mono', monospace" font-size="12">✓ 148 transaksi bulan September otomatis terklasifikasi via Regex Lookup &amp; tervalidasi dengan mutasi rekening koran.</text>
+    </g>
+  </g>
+</svg>

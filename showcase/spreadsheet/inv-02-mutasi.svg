@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="invBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030a18"/>
+      <stop offset="100%" stop-color="#0b1a2d"/>
+    </linearGradient>
+    <filter id="invShadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#invBg2)"/>
+  <g transform="translate(55, 42)" filter="url(#invShadow2)">
+    <rect width="1490" height="816" rx="16" fill="#0b1322" stroke="#243a5e" stroke-width="1.6"/>
+    <rect width="1490" height="54" rx="16" fill="#132440"/>
+    <rect y="40" width="1490" height="14" fill="#132440"/>
+    <circle cx="28" cy="27" r="7" fill="#ef4444"/>
+    <circle cx="50" cy="27" r="7" fill="#f59e0b"/>
+    <circle cx="72" cy="27" r="7" fill="#10b981"/>
+    <text x="745" y="33" fill="#e2e8f0" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700" text-anchor="middle">LUNIX Inventory OS • [02] Log Mutasi Barang FIFO &amp; Transfer Antar Gudang.xlsx</text>
+
+    <!-- Formula Bar -->
+    <rect y="54" width="1490" height="44" fill="#0f1b2e"/>
+    <line x1="0" y1="98" x2="1490" y2="98" stroke="#1e293b"/>
+    <text x="32" y="81" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12.5" font-weight="800">fx</text>
+    <text x="64" y="81" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="12.5">=IF(E5="KELUAR",IF(F5&gt;XLOOKUP(C5,Master!A:A,Master!G:G),"BLOCK: STOK KURANG",-F5),F5)</text>
+
+    <!-- Left Panel: Live Movement Ledger -->
+    <g transform="translate(24, 118)">
+      <rect width="980" height="670" rx="12" fill="#0f172a" stroke="#243550"/>
+      <text x="24" y="36" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="17" font-weight="700">JURNAL MUTASI BARANG REAL-TIME (FIFO)</text>
+      <text x="24" y="56" fill="#64748b" font-family="'Space Grotesk', sans-serif" font-size="12">Setiap transaksi tercatat otomatis dengan timestamp, operator gudang, dan proteksi saldo anti-minus.</text>
+
+      <!-- Table Header -->
+      <rect x="20" y="74" width="940" height="38" rx="7" fill="#17253d"/>
+      <text x="36" y="98" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">WAKTU</text>
+      <text x="155" y="98" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">SKU &amp; BATCH</text>
+      <text x="365" y="98" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">TIPE MUTASI</text>
+      <text x="530" y="98" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">RUTE GUDANG</text>
+      <text x="795" y="98" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" text-anchor="end">QTY</text>
+      <text x="938" y="98" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" text-anchor="end">SALDO AKHIR</text>
+
+      <!-- Ledger Rows -->
+      <g transform="translate(20, 122)" font-family="'JetBrains Mono', monospace" font-size="12">
+        <rect width="940" height="62" rx="8" fill="#131f35"/>
+        <text x="16" y="36" fill="#94a3b8">10:14 WIB</text>
+        <text x="135" y="30" fill="#f8fafc" font-weight="700">SKU-EL-1042</text>
+        <text x="135" y="48" fill="#64748b" font-size="10.5">Batch #FIFO-901</text>
+        <rect x="345" y="18" width="110" height="26" rx="13" fill="rgba(16,185,129,0.2)" stroke="#10b981"/>
+        <text x="400" y="35" fill="#34d399" font-size="11" font-weight="800" text-anchor="middle">+ MASUK</text>
+        <text x="510" y="36" fill="#cbd5e1">Supplier → Gudang JKT</text>
+        <text x="775" y="36" fill="#34d399" font-weight="800" text-anchor="end">+60</text>
+        <text x="918" y="36" fill="#f8fafc" font-weight="800" text-anchor="end">282 unit</text>
+
+        <g transform="translate(0, 72)">
+          <rect width="940" height="62" rx="8" fill="#101a2e"/>
+          <text x="16" y="36" fill="#94a3b8">11:02 WIB</text>
+          <text x="135" y="30" fill="#f8fafc" font-weight="700">SKU-TB-5102</text>
+          <text x="135" y="48" fill="#64748b" font-size="10.5">Transfer #TR-204</text>
+          <rect x="345" y="18" width="110" height="26" rx="13" fill="rgba(59,130,246,0.22)" stroke="#3b82f6"/>
+          <text x="400" y="35" fill="#93c5fd" font-size="11" font-weight="800" text-anchor="middle">⇄ TRANSFER</text>
+          <text x="510" y="36" fill="#cbd5e1">Gudang JKT → Gudang SBY</text>
+          <text x="775" y="36" fill="#38bdf8" font-weight="800" text-anchor="end">20</text>
+          <text x="918" y="36" fill="#f8fafc" font-weight="800" text-anchor="end">144 unit</text>
+        </g>
+
+        <g transform="translate(0, 144)">
+          <rect width="940" height="62" rx="8" fill="#131f35"/>
+          <text x="16" y="36" fill="#94a3b8">13:28 WIB</text>
+          <text x="135" y="30" fill="#f8fafc" font-weight="700">SKU-PK-3308</text>
+          <text x="135" y="48" fill="#64748b" font-size="10.5">DO #8812-JKT</text>
+          <rect x="345" y="18" width="110" height="26" rx="13" fill="rgba(245,158,11,0.2)" stroke="#f59e0b"/>
+          <text x="400" y="35" fill="#fbbf24" font-size="11" font-weight="800" text-anchor="middle">- KELUAR</text>
+          <text x="510" y="36" fill="#cbd5e1">Gudang JKT → Klien Retail</text>
+          <text x="775" y="36" fill="#fbbf24" font-weight="800" text-anchor="end">-36</text>
+          <text x="918" y="36" fill="#f87171" font-weight="800" text-anchor="end">24 box</text>
+        </g>
+
+        <g transform="translate(0, 216)">
+          <rect width="940" height="62" rx="8" fill="#101a2e"/>
+          <text x="16" y="36" fill="#94a3b8">14:45 WIB</text>
+          <text x="135" y="30" fill="#f8fafc" font-weight="700">SKU-NT-4410</text>
+          <text x="135" y="48" fill="#64748b" font-size="10.5">Batch #FIFO-884</text>
+          <rect x="345" y="18" width="110" height="26" rx="13" fill="rgba(16,185,129,0.2)" stroke="#10b981"/>
+          <text x="400" y="35" fill="#34d399" font-size="11" font-weight="800" text-anchor="middle">+ MASUK</text>
+          <text x="510" y="36" fill="#cbd5e1">Vendor Utama → Gudang BDG</text>
+          <text x="775" y="36" fill="#34d399" font-weight="800" text-anchor="end">+24</text>
+          <text x="918" y="36" fill="#f8fafc" font-weight="800" text-anchor="end">104 unit</text>
+        </g>
+
+        <g transform="translate(0, 288)">
+          <rect width="940" height="62" rx="8" fill="rgba(239,68,68,0.12)" stroke="#ef4444" stroke-dasharray="5 3"/>
+          <text x="16" y="36" fill="#fca5a5">15:11 WIB</text>
+          <text x="135" y="30" fill="#fca5a5" font-weight="700">SKU-PK-3308</text>
+          <text x="135" y="48" fill="#f87171" font-size="10.5">Req #9921 (Qty: 40)</text>
+          <rect x="345" y="18" width="128" height="26" rx="13" fill="rgba(239,68,68,0.28)" stroke="#ef4444"/>
+          <text x="409" y="35" fill="#fecaca" font-size="10.5" font-weight="800" text-anchor="middle">✕ DITOLAK</text>
+          <text x="510" y="36" fill="#fca5a5">Validasi: Sisa stok hanya 24 box!</text>
+          <text x="918" y="36" fill="#fca5a5" font-weight="800" text-anchor="end">PROTECTED</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Panel: FIFO Engine & Barcode Hook -->
+    <g transform="translate(1024, 118)">
+      <rect width="442" height="325" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+      <text x="24" y="38" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="800">⚡ APPS SCRIPT AUTOMATION</text>
+      <text x="24" y="66" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="800">Barcode Scan &amp; FIFO Queue</text>
+      <rect x="24" y="88" width="394" height="72" rx="10" fill="#132238" stroke="#243a5e"/>
+      <text x="40" y="114" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">INPUT BARCODE SCANNER AKTIF</text>
+      <text x="40" y="142" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="17" font-weight="800">|||| || ||| | 8991042009182</text>
+
+      <rect x="24" y="176" width="394" height="58" rx="9" fill="rgba(16,185,129,0.12)" stroke="rgba(52,211,153,0.4)"/>
+      <text x="40" y="200" fill="#6ee7b7" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">✓ Anti-Double Entry &amp; Anti-Stok Minus</text>
+      <text x="40" y="220" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="11.5">Blokir otomatis saat permintaan &gt; stok gudang asal.</text>
+
+      <rect x="24" y="246" width="394" height="58" rx="9" fill="rgba(59,130,246,0.12)" stroke="rgba(96,165,250,0.4)"/>
+      <text x="40" y="270" fill="#93c5fd" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700">⇄ Transfer Multi-Gudang 2 Arah</text>
+      <text x="40" y="290" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="11.5">Potong gudang asal &amp; tambah gudang tujuan atomik.</text>
+
+      <g transform="translate(0, 345)">
+        <rect width="442" height="325" rx="12" fill="#0f172a" stroke="#243550"/>
+        <text x="24" y="38" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="800">RINGKASAN MUTASI HARI INI</text>
+        <g transform="translate(24, 62)">
+          <rect width="190" height="104" rx="10" fill="#132238"/>
+          <text x="16" y="30" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">BARANG MASUK</text>
+          <text x="16" y="72" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="800">+412</text>
+          <text x="16" y="92" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="10.5">18 dokumen PO</text>
+        </g>
+        <g transform="translate(228, 62)">
+          <rect width="190" height="104" rx="10" fill="#132238"/>
+          <text x="16" y="30" fill="#fbbf24" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">BARANG KELUAR</text>
+          <text x="16" y="72" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="28" font-weight="800">-286</text>
+          <text x="16" y="92" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="10.5">31 surat jalan</text>
+        </g>
+        <g transform="translate(24, 184)">
+          <rect width="394" height="114" rx="10" fill="#132238" stroke="#38bdf8" stroke-width="1"/>
+          <text x="18" y="30" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700">AUDIT TRAIL SNAPSHOT</text>
+          <text x="18" y="58" fill="#e2e8f0" font-family="'Space Grotesk', sans-serif" font-size="13">Akurasi Stock Opname: 99,8%</text>
+          <text x="18" y="80" fill="#94a3b8" font-family="'Space Grotesk', sans-serif" font-size="11.5">Selisih fisik vs buku turun dari 14% ke &lt;0,2%</text>
+          <text x="18" y="100" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="11">✓ Siap ekspor PDF Audit Bulanan</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
